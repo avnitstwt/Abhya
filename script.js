@@ -9,7 +9,7 @@ window.onload = async () => {
     };
 
     const pick = (array) => array[Math.floor(Math.random() * array.length)];
-    const hacked_statements = ["Yes", "Maybe", "Most Likely", "Highly Probable", "Potentially", "Unlikely But Still Possible", "Almost Certainly", "Definitely", "Absolutely"];
+    const hacked_statements = ["Yes", "Maybe", "Most Likely", "Highly Probable", "Potentially", "Unlikely But Still Possible", "Almost Certainly", "Definitely", "Absolutely", "Fcuking No!!!"];
 
     try {
         const memes = [];
@@ -121,4 +121,5 @@ window.onload = async () => {
         error(`${e.message}`);
     }
 };
+
 
